@@ -46,7 +46,8 @@ const AutocompleteSearch: React.FC<AutocompleteSearchProps> = ({
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="Search Pokémon..."
-        className="px-4 py-2 w-full md:w-full rounded-md bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        style={{width: '100%'}}
+        className="px-4 py-2 w-full rounded-md bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
     </div>
   );

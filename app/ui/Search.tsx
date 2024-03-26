@@ -12,7 +12,7 @@ export const Search: FC<Props> = ({ isSearch }) => {
   const pokemons = usePreloadPokemonNames();
   return (
     <header className="bg-gray-800 p-4 fl">
-      <div className="container w-1/2 mx-auto flex items-center flex-col justify-between">
+      <div className="container md:w-1/2 sm:w-full mx-auto flex items-center flex-col justify-between">
         <div className="m-5">
           <Link href="/">
             <Image src="/logo.svg" alt="logo" width={200} height={200} />
